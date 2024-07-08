@@ -19,4 +19,5 @@ function uploadImage() {
 }
 
 if (window.navigator) {
+  alert("home");
 }
