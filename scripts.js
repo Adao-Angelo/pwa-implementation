@@ -17,3 +17,8 @@ function handleFileSelect() {
 function uploadImage() {
   alert("Image uploaded successfully!");
 }
+
+if (window.navigator.standalone) {
+  document.body.style.overflow = "hidden";
+  document.body.style.height = "100vh";
+}
