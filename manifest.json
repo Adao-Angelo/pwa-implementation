@@ -23,6 +23,7 @@
   "background_color": "#0e475f",
   "display": "fullscreen",
 
+  "orientation": "portrait",
   "scope": "/",
   "theme_color": "#7191d4",
 
@@ -44,7 +45,7 @@
 
   "dir": "auto",
   "lang": "en",
-  "orientation": "any",
+
   "categories": ["education", "photo"],
   "protocol_handlers": [
     {
