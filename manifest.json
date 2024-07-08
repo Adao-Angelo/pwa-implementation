@@ -21,14 +21,8 @@
   "id": "123e4567-e89b-12d3-a456-426614174000",
   "start_url": "https://upload-lovat.vercel.app",
   "background_color": "#0e475f",
-  "display": "standalone",
-  "display_override": [
-    "fullscreen",
-    "browser",
-    "window-controls-overlay",
-    "minimal-ui",
-    "standalone"
-  ],
+  "display": "fullscreen",
+
   "scope": "/",
   "theme_color": "#7191d4",
 
