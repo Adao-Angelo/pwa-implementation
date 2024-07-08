@@ -3,44 +3,54 @@
   "name": "Upload: Do I need an upload?",
   "icons": [
     {
-      "src": "/images/icons-vector.svg",
-      "type": "image/svg+xml",
+      "src": "/images/icons/android/android-launcherIcon-512-512.png",
+      "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/images/icons-192.png",
+      "src": "/images/icons/android/android-launcherIcon-192-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "/images/icons/android/android-launcherIcon-144-144.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "144x144"
     }
   ],
-  "id": "/?source=pwa",
-  "start_url": "/?source=pwa",
-  "background_color": "#3367D6",
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "start_url": "https://upload-lovat.vercel.app",
+  "background_color": "#0e475f",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#3367D6",
+  "theme_color": "#7191d4",
   "shortcuts": [
     {
       "name": "How's the weather today?",
       "short_name": "Today",
       "description": "View weather information for today",
       "url": "/today?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/images/today.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "How's the weather tomorrow?",
       "short_name": "Tomorrow",
       "description": "View weather information for tomorrow",
       "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/images/tomorrow.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
-  "description": "Weather forecast information",
+  "description": "Upload forecast information",
   "screenshots": [
     {
       "src": "/images/screenshot1.png",
@@ -54,5 +64,16 @@
       "sizes": "720x540",
       "form_factor": "wide"
     }
-  ]
+  ],
+  "dir": "auto",
+  "lang": "en",
+  "orientation": "any",
+  "display_override": [
+    "fullscreen",
+    "browser",
+    "window-controls-overlay",
+    "minimal-ui",
+    "standalone"
+  ],
+  "categories": ["education", "photo"]
 }
